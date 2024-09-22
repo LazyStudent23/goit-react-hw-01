@@ -1,0 +1,20 @@
+.profile{
+    border: 2px solid #000;
+    border-radius: 50px;
+}
+
+.avatar{
+    background-color: #fff;
+}
+
+.image {
+    background-color: #464646;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.img {
+    
+}
+.name {
+    color: #000;
+}
