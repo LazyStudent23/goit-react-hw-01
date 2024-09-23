@@ -1,6 +1,6 @@
 import styles from "./Transactions.module.css";
 
-const TransactionHistory = (items) => {
+const TransactionHistory = ({ items }) => {
   return (
     <table>
       <thead>

@@ -1,7 +1,7 @@
 import styles from "./FriendList.module.css";
 import FriendListItem from "../FriendListItem/FriendListItem";
 
-const FriendList = (friends) => {
+const FriendList = ({ friends }) => {
   return (
     <ul>
       {friends.map((friend) => {
@@ -16,3 +16,4 @@ const FriendList = (friends) => {
 };
 
 export default FriendList;
+// add {} to props friends
