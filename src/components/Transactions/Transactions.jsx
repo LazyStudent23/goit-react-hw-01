@@ -20,7 +20,6 @@ const TransactionHistory = ({ items }) => {
             </tr>
           );
         })}
-        )
       </tbody>
     </table>
   );
