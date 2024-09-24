@@ -17,4 +17,8 @@
 }
 .name {
     color: #000;
+    font-weight: 700;
+}
+.bio {
+    color: #464646;
 }

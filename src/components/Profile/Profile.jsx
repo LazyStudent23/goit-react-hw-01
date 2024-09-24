@@ -9,7 +9,8 @@ const Profile = (props) => {
           <img src={image} alt="User avatar" className={styles.img} />
         </div>
         <p className={styles.name}>{name}</p>
-        <p>@{tag}</p>    <p>{location}</p>
+        <p className={styles.bio}>@{tag}</p>
+        <p className={styles.bio}>{location}</p>
       </div>
       <ul>
         <li>
