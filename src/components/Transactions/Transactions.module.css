@@ -1,0 +1,36 @@
+.table {
+    border-collapse: collapse;
+    border: 3px solid #111111;
+    width: 80%;
+    margin: 0 auto 20px;
+    color: #111111;
+}
+
+.thead {
+    background-color: #555555;
+
+    color: #fafafa;
+}
+
+.trow {
+    border: 2px solid #ffffff;
+    background-color: #fafafa
+}
+
+.trow:nth-child(even) {
+    background-color: #a0a0a0;
+}
+
+.headname {
+    border: 3px solid #111111;
+    width: calc(100% / 3);
+    padding: 8px 0;
+    font-size: 20px;
+}
+
+.item {
+    border: 2px solid #555555;
+    padding: 6px 0;
+
+    font-size: 20px;
+}

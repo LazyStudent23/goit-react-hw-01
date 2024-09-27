@@ -4,23 +4,28 @@ const Profile = (props) => {
   const { name, tag, location, image, stats } = props;
   return (
     <div className={styles.profile}>
-      <div className={styles.avatar}>
-        <div className={styles.image}>
-          <img src={image} alt="User avatar" className={styles.img} />
-        </div>
+      <div className={styles.info}>
+        <img className={styles.img} src={image} alt={name} />
+
         <p className={styles.name}>{name}</p>
-        <p className={styles.bio}>@{tag}</p>
-        <p className={styles.bio}>{location}</p>
+        <p className={styles.tag}>@{tag}</p>
+        <p className={styles.location}>{location}</p>
       </div>
-      <ul>
-        <li>
-                <span>Followers</span>      <span>{stats.followers}</span>
+
+      <ul className={styles.stats}>
+        <li className={styles.item}>
+          <span className={styles.itemname}>Followers </span>
+          <span className={styles.itemcount}>{stats.followers}</span>
         </li>
-        <li>
-                <span>Views</span>      <span>{stats.views}</span>
+
+        <li className={styles.item}>
+          <span className={styles.itemname}>Views </span>
+          <span className={styles.itemcount}>{stats.views}</span>
         </li>
-        <li>
-                <span>Likes</span>      <span>{stats.likes}</span>
+
+        <li className={styles.item}>
+          <span className={styles.itemname}>Likes </span>
+          <span className={styles.itemcount}>{stats.likes}</span>
         </li>
       </ul>
     </div>

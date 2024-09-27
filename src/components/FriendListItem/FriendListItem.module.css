@@ -1,7 +1,16 @@
-.online {
-    color: rgb(15, 199, 15);
+.name {
+    margin-top: 12px;
+    margin-bottom: 4px;
+
+    font-size: 24px;
+    font-weight: 500;
 }
 
-.offline {
-    color: rgb(219, 39, 39);
+.status {
+    font-size: 18px;
+    color: #e60000;
+}
+
+.status.online {
+    color: #00b800;
 }
